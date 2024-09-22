@@ -1,0 +1,11 @@
+services:
+  docker-test-service:
+    image: docker-test-service
+    build:
+      context: ./
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
+
+
+

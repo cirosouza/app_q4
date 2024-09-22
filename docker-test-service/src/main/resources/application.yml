@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: docker-test-service
+
+server:
+  port: 8081
+
